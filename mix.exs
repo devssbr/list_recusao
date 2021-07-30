@@ -5,7 +5,7 @@ defmodule ListLength.MixProject do
     [
       app: :list_length,
       version: "0.1.0",
-      elixir: "~> 1.11",
+      elixir: "~> 1.10",
       start_permanent: Mix.env() == :prod,
       deps: deps()
     ]
@@ -20,8 +20,6 @@ defmodule ListLength.MixProject do
 
   # Run "mix help deps" to learn about dependencies.
   defp deps do
-    [
-      {:json_response, git: "https://github.com/joaopealves/json_response"}
-    ]
+    []
   end
 end
